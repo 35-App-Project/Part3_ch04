@@ -58,4 +58,13 @@ dependencies {
     // coil 라이브러리
     implementation("io.coil-kt:coil:2.2.2")
 
+    // live-data, AAC ViewModel
+    implementation("androidx.activity:activity-ktx:1.8.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+
+    // RxJava
+    implementation("com.squareup.retrofit2:adapter-rxjava2:2.9.0")
+    implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
+    implementation("io.reactivex.rxjava2:rxkotlin:2.4.0")
+
 }
