@@ -1,6 +1,6 @@
 package com.choi.a35app_part3_ch04.mvp
 
-// 연결을 위한 interFace
+// 연결을 위한 interFace (View, Presenter)
 interface MvpContractor {
 
     // 사용자 에게 보여줄  화면에 대한 Interface

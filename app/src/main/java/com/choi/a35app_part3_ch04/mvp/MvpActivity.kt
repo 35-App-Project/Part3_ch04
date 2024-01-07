@@ -8,6 +8,7 @@ import com.choi.a35app_part3_ch04.databinding.ActivityMvpBinding
 import com.choi.a35app_part3_ch04.mvp.model.ImageCountModel
 import com.choi.a35app_part3_ch04.mvp.repository.ImageRepositoryImpl
 
+// View 에 속한다 (Presenter 를 직접 참조)
 class MvpActivity: AppCompatActivity(), MvpContractor.View {
 
     private lateinit var binding : ActivityMvpBinding

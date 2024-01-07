@@ -8,6 +8,7 @@ class MvpPresenter(
     private val imageRepository: ImageRepository
 ) : MvpContractor.Presenter, ImageRepository.CallBack {
 
+    // View 를 직접 참조
     private var view: MvpContractor.View? = null
 
     override fun attachView(view: MvpContractor.View) {
