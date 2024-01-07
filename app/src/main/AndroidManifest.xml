@@ -25,6 +25,7 @@
         </activity>
         <activity android:name="com.choi.a35app_part3_ch04.mvc.MvcActivity" />
         <activity android:name="com.choi.a35app_part3_ch04.mvp.MvpActivity" />
+        <activity android:name="com.choi.a35app_part3_ch04.mvvm.MvvmActivity" />
     </application>
 
 </manifest>

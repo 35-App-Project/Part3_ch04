@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.choi.a35app_part3_ch04.databinding.ActivityMainBinding
 import com.choi.a35app_part3_ch04.mvc.MvcActivity
 import com.choi.a35app_part3_ch04.mvp.MvpActivity
+import com.choi.a35app_part3_ch04.mvvm.MvvmActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openMvvm() {
-
+        startActivity(Intent(this, MvvmActivity::class.java))
     }
 
     fun openMvi() {
