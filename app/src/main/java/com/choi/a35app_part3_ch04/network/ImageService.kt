@@ -15,4 +15,9 @@ interface ImageService {
     @GET("photos/random")
     fun getRandomImageRx() : Single<ImageResponse>
 
+    // Mvi 패턴은 Coroutine 으로 처리
+    @Headers("Authorization: Client-ID xr5EcriIiBUVPkS3JWUMlnpr4UM5uhyYivvJD9qGPVA")
+    @GET("photos/random")
+    suspend fun getRandomImageSuspend() : ImageResponse
+
 }
